@@ -26,14 +26,21 @@ MySQL - Banco de dados que utilizei para armazenar informações sobre os produt
 
 ## Features
 
-1. Estrutura do Banco de Dados:
+<p align="center">1. Estrutura do Banco de Dados:</p>
+<p align="center">
 <img src="https://github.com/brunacardozo18/BeautyStyle/blob/main/README/img/db.png">
+</p>
 
-2. Fluxo do Projeto:
+<p align="center">2. Fluxo do Projeto:</p>
+<p align="center">
 <img src="https://github.com/brunacardozo18/BeautyStyle/blob/main/README/img/PROJECT.png">
+</p>
 
-3. Requisições aos dados:
+<p align="center">3. Requisições aos dados:</p>
+<p align="center">
 <img src="https://github.com/brunacardozo18/BeautyStyle/blob/main/README/img/fluxo.png">
+</p>
+<hr>
 
 ## Instruções de execução
 
