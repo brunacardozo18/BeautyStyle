@@ -24,25 +24,31 @@ MySQL - Banco de dados que utilizei para armazenar informações sobre os produt
 
 *É o backend principal da minha aplicação, feita em PHP, uma linguagem de viáveis acessos e codificação. Partir pra esse lado me deu muita produtivdade na hora de codificar os endpoints da API, e consumi-las com meu Front-End.*
 
-
 ## Features
 
-Aqui você descreve as principais features do sistema, de preferência com foto do fluxo da feature ou uma descrição breve do que ela faz.
+1. Estrutura do Banco de Dados:
+<img src="https://github.com/brunacardozo18/BeautyStyle/blob/main/README/img/db.png">
 
-Exemplo (features do curto.io):
+2. Fluxo do Projeto:
+<img src="https://github.com/brunacardozo18/BeautyStyle/blob/main/README/img/PROJECT.png">
 
-1. Criação de um link curto:
-
-![Feature 1](./images/feature_1.png)
-
-2. Redirecionamento de um link curto para um link longo:
-
-![Feature 2](./images/feature_2.png)
+3. Requisições aos dados:
+<img src="https://github.com/brunacardozo18/BeautyStyle/blob/main/README/img/fluxo.png">
 
 ## Instruções de execução
 
-Aqui você descreve brevemente como fazer a instalação das dependências dos projetos, os pré-requisitos para se conseguir fazer isso e como executar a aplicação.
+Clone esse repositório e execute os seguintes comandos:
+*npm install* (Instala as dependências do seu projeto
+*npm run dev* (Executa a aplicação Front-End)
+
+Instale o XAMPP para rodar o backend através do link: https://www.apachefriends.org/pt_br/download.html
+Abra o XAMPP e execute o Apache e MySQL.
+
+Logo após instalar, copie a pasta *'api'* do projeto e cole em *C:\xampp\htdocs*
+Clique em 'admin' na parte do MySQL no XAMPP, crie o banco beautystyle, e importe o arquivo em *'api/beautystyle.sql'* pelo PhpMyAdmin.
+
+Abra seu navegador e vá para *localhost:3000* para acessar o aplicativo.
 
 ## Contribua com o projeto
 
-Aqui você coloca instruções claras de como contribuir com o projeto, ou você pode colocar um direcionamento à outro arquivo que liste melhor a forma de como contribuir com o projeto.
+Gostou do meu projeto? Você pode fazer um pull request se tiver alguma sugestção de melhoria para o projeto :)
